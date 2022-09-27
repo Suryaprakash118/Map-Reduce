@@ -1,0 +1,14 @@
+ifconfig 
+mkdir Kishi 
+cd Kishi 
+ls 
+hadoop fs -mkdir /Hinata 
+hadoop fs -copyFromLocal /home/edureka/Desktop/Kishi /Hinata 
+hadoop jar h 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordcount /Hinata/kishi /Hinata/count 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordcount /Hinata/Kishi /Hinata/Count 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmean /Hinata/Kishi /Hinata/Mean 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordmedian /Hinata/Kishi /Hinata/Median 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordstandarddeviation /Hinata/Kishi        /Hinata/standard deviation 
+hadoop jar hadoop-mapreduce-examples-2.2.0.jar wordstandarddeviation /Hinata/Kishi /Hinata/SD 
